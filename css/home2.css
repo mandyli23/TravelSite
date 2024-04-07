@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    height: 650px;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 650px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* 
+.hello {
+    color:black;
+    padding: 80px;
+    font-size: 3rem;
+    width: 50%;
+} */
+
+/* scrll */
+
+.hello {
+    color:white;
+    padding: 250px 100px;
+    font-size: 3rem;
+    width: 50%;
+}
+
+.container {
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    border-bottom: 5px dotted whitesmoke;
+    border-top: 5px dotted whitesmoke;
+}
+
+.container2 {
+    width: 30%;
+    height: 650px;
+    background-color:black;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(50%);
+      }
+}
+
+.picGal {
+  overflow: hidden;
+  height: 650px;
+  width: 70px;
+  background:black;
+  white-space: wrap;
+  position: relative;
+
+
+}
+
+.picGal-slide {
+  display: inline-block;
+  animation: 12s slide infinite linear;
+ 
+
+}
+
+.picGal-slide img {
+  height: 250px;
+  padding-bottom: 40px;
+}
+@keyframes slide2 {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(50%);
+    }
+  }
+  
+  .picGal2 {
+    overflow: hidden;
+    height: 650px;
+    width: 70px;
+    padding:  0px 50px;
+    background: black;
+    white-space: wrap;
+    position: relative;
+    
+  }
+  
+  .picGal-slide2 {
+    display: inline-block;
+    animation: 8s slide2 infinite linear;
+  }
+  
+  .picGal-slide2 img {
+    height: 250px;
+    padding-bottom: 150px;
+
+  }
+
+  @keyframes slide3 {
+    from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(50%);
+      }
+}
+
+.picGal3 {
+  overflow: hidden;
+  height: 650px;
+  width: 70px;
+  background:black;
+  white-space: wrap;
+  position: relative;
+
+
+}
+
+.picGal-slide3 {
+  display: inline-block;
+  animation: 10s slide3 infinite linear;
+ 
+
+}
+
+.picGal-slide3 img {
+  height: 250px;
+  padding-bottom: 40px;
+}
+
+
+
+/* 
+
+  @keyframes slide3 {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
+  
+  .picGal3 {
+    overflow: hidden;
+    height: 650px;
+    width: 70px;
+    background: black;
+    white-space: wrap;
+    position: relative;
+    
+  }
+  
+  .picGal3-slide3  {
+    display: inline-block;
+    animation: 10s slide3 infinite linear;
+  }
+  
+  .picGal3-slide3 img {
+    height: 250px;
+    padding-bottom: 40px;
+  } */
